@@ -1,0 +1,36 @@
+{
+	"fields": [
+		{
+			"component": "text",
+			"type": "text",
+			"label": "First Name",
+			"id": "firstName"
+		},
+		{
+			"component": "select",
+			"label": "Nacionalidad",
+			"id": "nacionalidad",
+			"options": [
+				{"value": "M", "displayValue": "Mexicano"},
+				{"value": "C", "displayValue": "Colombiano"},
+				{"value": "A", "displayValue": "Argentino"},
+				{"value": "P", "displayValue": "Peruano"}
+			]
+		},
+		{
+			"component": "checkbox",
+			"label": "Acepto termonos y condiciones",
+			"id": "terminosCondiciones"
+		},
+		{
+			"component": "radio",
+			"label": "Sexo",
+			"options": [
+				{"value": "H", "displayValue": "Hombre"},
+				{"value": "M", "displayValue": "Mujer"},
+				{"value": "O", "displayValue": "Otro"}
+			],
+			"id": "sexo"
+		}
+	]
+}
